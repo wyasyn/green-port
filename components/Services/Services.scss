@@ -1,0 +1,36 @@
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 2rem;
+    column-gap: 2rem;
+    article {
+        background: var(--dark-200);
+        padding: 2em;
+        transition: var(--transition);
+        border-radius: 10px;
+        svg {
+            font-size: 1.7rem;
+            color: var(--primary);
+            transition: var(--transition);
+        }
+        h3 {
+            margin-block: 1em;
+            text-wrap: balance;
+        }
+        &:hover, &:focus-visible {
+            background: var(--primary);
+            color: var(--clr-heading);
+            svg {
+                color: var(--clr-heading);
+            }
+        }
+        @media screen and (min-width:559px) {
+            &:nth-child(even){
+                transform: translateY(2rem);
+            }
+        }
+    }
+    @media screen and (min-width:559px) {
+        row-gap: 4rem;
+    }
+}
