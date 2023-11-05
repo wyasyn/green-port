@@ -1,0 +1,26 @@
+.section-title {
+    margin-bottom: 3rem;
+    .header-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0.5rem;
+        small {
+            color: var(--primary);
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 3rem;
+            height: 2px;
+            bottom: 0;
+            background: var(--primary);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    @media screen and (min-width:768px) {
+        margin-bottom: 5rem;
+    }
+}

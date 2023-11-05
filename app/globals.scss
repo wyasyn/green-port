@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap');
 
+@import '/RecoletaFont/stylesheet.css';
+
 :root {
   --primary: #29a688;
   --dark-100: #25262a;
@@ -64,7 +66,9 @@ main {
 h1, h2, h3, h4, h5 {
   color: var(--clr-heading);
   line-height: 1.2;
+  font-family: 'Recoleta', 'Noto Sans', sans-serif;
 }
+
 
 h1 {
   font-size: clamp(1.875rem, 1.2917rem + 2.6667vw, 3.125rem);
@@ -92,6 +96,9 @@ a {
   transition: var(--transition);
   margin-block: 2em;
   font-weight: 600;
+  svg {
+    font-size: 1.2rem;
+  }
   &:hover, &:focus-visible {
     outline: 2px solid var(--primary);
     background: var(--dark-200);

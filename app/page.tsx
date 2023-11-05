@@ -1,4 +1,4 @@
-import { Hero, Services } from "@/components";
+import { Hero, SectionTitle, Services } from "@/components";
 
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
         <Hero />
       </section>
       <section>
+        <SectionTitle title="Services" description="What I Do" />
         <Services />
       </section>
     </main>
