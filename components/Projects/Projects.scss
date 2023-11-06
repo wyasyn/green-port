@@ -63,7 +63,7 @@
         &:hover, &:focus-visible {
             transform: translateY(-10px);
             .project-info {
-                background: #29a68956;
+                background: var(--primary-transparent);
             }
             .badge {
                 svg {

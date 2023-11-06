@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.scss'
-import { Footer } from '@/components'
+import { Footer, Navbar } from '@/components'
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ywalum.com"),
@@ -78,8 +78,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-          {children}
-          <Footer />
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   )

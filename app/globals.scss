@@ -4,6 +4,7 @@
 
 :root {
   --primary: #29a688;
+  --primary-transparent: #29a68956;
   --dark-100: #25262a;
   --dark-200: #2d2e32;
   --clr-text: #a1a6aa;
@@ -15,6 +16,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 ::-webkit-scrollbar {
@@ -40,6 +42,7 @@ body {
 }
 
 main {
+  background: var(--dark-100);
   section {
     background: var(--dark-200);
     min-height: 100vh;
