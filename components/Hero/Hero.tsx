@@ -48,7 +48,7 @@ export default function Hero() {
                 <p className='intro'>
                     Am on a Journey to innovate and create. Explore my world of code, design, and technology as I turn ideas into reality.
                 </p>
-                <a href='#' className="btn">
+                <a href='/assets/resume.pd' className="btn">
                     <AiOutlineCloudDownload />
                     <p>
                         Download CV

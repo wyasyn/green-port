@@ -6,3 +6,5 @@ export { default as Projects } from "./Projects/Projects";
 export { default as Testimonials } from "./Testimonials/Testimonials";
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as PageTitle } from "./PageTitle/PageTitle";
+export { default as AboutSec } from "./AboutSec/AboutSec";
+export { default as Skills } from "./Skills/Skills";

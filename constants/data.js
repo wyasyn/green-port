@@ -2,6 +2,7 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineMail, AiOutlineGithub, AiFillLin
 import { BsClipboardData, BsCodeSlash, BsDatabase, BsGear, BsPen, BsPeople, BsPersonGear } from 'react-icons/bs';
 import {FaWhatsapp, FaTwitter} from 'react-icons/fa'
 import {PiGraduationCap} from 'react-icons/pi'
+import { images } from './images';
 
 const myEmail = process.env.MY_EMAIL;
 const myPhone = process.env.MY_PHONE;
@@ -87,5 +88,44 @@ export const servicesData = [
         name: 'Education and Training',
         icon: <PiGraduationCap />,
         description: " Teaching, mentoring, and training at workshops to industry professionals.",
+    },
+]
+
+export const skillsData = [
+    {
+        name: 'React',
+        icon: images.react
+    },
+    {
+        name: 'JavaScript',
+        icon: images.js
+    },
+    {
+        name: 'Python',
+        icon: images.py
+    },
+    {
+        name: 'MySQL',
+        icon: images.mysql
+    },
+    {
+        name: 'CSS',
+        icon: images.css
+    },
+    {
+        name: 'Word Press',
+        icon: images.wordpress
+    },
+    {
+        name: 'Flutter',
+        icon: images.flutter
+    },
+    {
+        name: 'AI',
+        icon: images.ai
+    },
+    {
+        name: 'NextJS',
+        icon: images.nextjs
     },
 ]
