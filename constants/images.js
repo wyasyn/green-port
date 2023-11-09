@@ -21,6 +21,15 @@ import wordpress from '../images/wordpress.png'
 import flutter from '../images/flutter.png'
 import ai from '../images/ml.png'
 import nextjs from '../images/next.png'
+import blog1 from '../images/blog1.jpg'
+import blog2 from '../images/blog2.jpg'
+import blog3 from '../images/blog3.jpg'
+import blog4 from '../images/blog4.jpg'
+import blog5 from '../images/blog5.jpg'
+import blog6 from '../images/blog6.jpg'
+import blog7 from '../images/blog7.jpg'
+import blog8 from '../images/blog8.jpg'
+import blog9 from '../images/blog9.jpg'
 
 export const images = {
     profile,
@@ -46,4 +55,13 @@ export const images = {
     flutter,
     ai,
     nextjs,
+    blog1,
+    blog2,
+    blog3,
+    blog4,
+    blog5,
+    blog6,
+    blog7,
+    blog8,
+    blog9,
 }

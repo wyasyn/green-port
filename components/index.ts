@@ -8,3 +8,5 @@ export { default as Navbar } from "./Navbar/Navbar";
 export { default as PageTitle } from "./PageTitle/PageTitle";
 export { default as AboutSec } from "./AboutSec/AboutSec";
 export { default as Skills } from "./Skills/Skills";
+export { default as Resume } from "./Resume/Resume";
+export { default as BlogSec } from "./BlogSec/BlogSec";

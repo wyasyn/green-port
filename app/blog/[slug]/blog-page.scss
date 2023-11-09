@@ -1,0 +1,28 @@
+.blog-page {
+    .container {
+        padding-block: 5rem;
+        h1 {
+            margin-bottom: 1em;
+        }
+        h3 {
+            margin-bottom: 1.5em;
+        }
+        .img {
+            width: 100%;
+            aspect-ratio: 16/9;
+            overflow: hidden;
+            border-radius: 10px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        p {
+            margin-top: 2em;
+        }
+        @media screen and (min-width: 768px) {
+            padding-block: 10rem;
+        }
+    }
+}

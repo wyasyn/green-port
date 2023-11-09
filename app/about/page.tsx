@@ -1,4 +1,4 @@
-import { AboutSec, PageTitle, SectionTitle, Services, Skills } from "@/components"
+import { AboutSec, PageTitle, Resume, SectionTitle, Services, Skills } from "@/components"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -17,6 +17,10 @@ export default function AboutPage() {
         <section>
           <SectionTitle title="Services" description="What I Do" />
           <Services />
+        </section>
+        <section>
+          <SectionTitle title="Resume" description="My Story" />
+          <Resume />
         </section>
     </main>
   )

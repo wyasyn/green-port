@@ -1,0 +1,29 @@
+.resume-container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+    .col {
+        h3 {
+            border-bottom: 1px solid var(--clr-text);
+            text-align: center;
+        }
+        h3, h4, h5 {
+            padding-block: 1em;
+        }
+        .resume-content {
+            display: grid;
+            gap: 1rem;
+            .content-item {
+                padding: 1em;
+                border-bottom: 1px solid var(--clr-text);
+                .resume-info {
+                    // height: 0;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
