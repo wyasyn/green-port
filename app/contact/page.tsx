@@ -1,4 +1,4 @@
-import { PageTitle } from "@/components"
+import { ContactLinks, Map, PageTitle } from "@/components"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -9,7 +9,10 @@ export default function AboutPage() {
     <main>
         <PageTitle description="Let's Connect" name="Contact Me" />
         <section>
-            Contact page
+            <ContactLinks />
+        </section>
+        <section>
+          <Map />
         </section>
     </main>
   )

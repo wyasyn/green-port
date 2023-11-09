@@ -10,3 +10,6 @@ export { default as AboutSec } from "./AboutSec/AboutSec";
 export { default as Skills } from "./Skills/Skills";
 export { default as Resume } from "./Resume/Resume";
 export { default as BlogSec } from "./BlogSec/BlogSec";
+export { default as ContactLinks } from "./ContactLinks/ContactLinks";
+export { default as Map } from "./Map/Map";
+export { default as Email } from "./Email/Email";

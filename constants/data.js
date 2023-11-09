@@ -1,6 +1,6 @@
 import { AiOutlineHome, AiOutlineUser, AiOutlineMail, AiOutlineGithub, AiFillLinkedin } from 'react-icons/ai';
 import { BsClipboardData, BsCodeSlash, BsDatabase, BsGear, BsPen, BsPeople, BsPersonGear } from 'react-icons/bs';
-import {FaWhatsapp, FaTwitter} from 'react-icons/fa'
+import {FaWhatsapp, FaTwitter, FaMale, FaEnvelope} from 'react-icons/fa'
 import {PiGraduationCap} from 'react-icons/pi'
 import { images } from './images';
 
@@ -42,11 +42,6 @@ export const socialData = [
         link: 'https://github.com/wyasyn'
     },
     {
-        name: 'X',
-        icon: <FaTwitter />,
-        link: 'https://twitter.com/wyasyn'
-    },
-    {
         name: 'LinkedIn',
         icon: <AiFillLinkedin />,
         link: 'https://www.linkedin.com/in/yasin-walum-01b18295/'
@@ -55,6 +50,11 @@ export const socialData = [
         name: 'WhatsApp',
         icon: <FaWhatsapp />,
         link: `https://wa.me/${myPhone}`,
+    },
+    {
+        name: 'Email',
+        icon: <FaEnvelope />,
+        link: `mailto:${myEmail}`,
     },
 ]
 

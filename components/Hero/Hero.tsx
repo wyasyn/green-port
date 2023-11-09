@@ -18,6 +18,7 @@ export default function Hero() {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     priority={true}
                     placeholder='blur'
+                    title='Yasin Walum'
                      />
                 </div> 
                     <div className="exp">
@@ -57,7 +58,7 @@ export default function Hero() {
                 <div className="socials">
                     {
                         socialData.map((data) => (
-                            <a href={data.link} className="social" key={data.name}>
+                            <a href={data.link} className="social" key={data.name} title={data.name}>
                                 {data.icon}
                             </a>
                         ))

@@ -19,7 +19,7 @@ export default function Skills() {
                                 height={48}
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 placeholder='blur'
-                                title='Yasin Walum'
+                                title={data.name}
                             />
                         </div>
                         <p>

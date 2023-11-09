@@ -40,6 +40,7 @@ export default function Testimonials() {
                                         height={100}
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                         placeholder='blur'
+                                        title={data.name}
                                     />
                                 </div>
                                 <div className="info">
