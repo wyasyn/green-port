@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.scss'
 import { Footer, Navbar } from '@/components'
 import { Toaster } from 'react-hot-toast'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ywalum.com"),
@@ -83,6 +84,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
