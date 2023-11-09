@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
     {
-      url: 'https://ywalum.com/blogs',
+      url: 'https://ywalum.com/blog',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.75,
