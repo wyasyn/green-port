@@ -12,11 +12,12 @@ type Props = {
 export default function BlogPage({ params }: Props) {
   const blog = blogData.find((blog) => blog.slug === params.slug);
   if (!blog) {
-    return <main className='blog-page' > <h1>Blog not found</h1></main>;
+    return <main className='blog-page' > <h1 className='container'>Blog not found</h1></main>;
   }
   return (
     <main className='blog-page'>
       <div className="container">
+        <small>{blog.date}</small>
         <h1>{blog.title}</h1>
         <h3>{blog.description}</h3>
         <div className="img">

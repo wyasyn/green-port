@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main>
-        <PageTitle description="Let's Connect" name="Contact Me" />
+        <PageTitle description="Get in touch" name="Contact Me" />
         <section>
             <ContactLinks />
         </section>
