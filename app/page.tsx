@@ -1,4 +1,4 @@
-import { Hero, Projects, SectionTitle, Services, Testimonials } from "@/components";
+import { FeaturedBlog, FeaturedProjects, Hero, Projects, SectionTitle, SeeMore, Services, Testimonials } from "@/components";
 
 
 export default function Home() {
@@ -13,11 +13,17 @@ export default function Home() {
       </section>
       <section>
         <SectionTitle title="Projects" description="Selected Work" />
-        <Projects />
+        <FeaturedProjects />
+        <SeeMore link="/projects" />
       </section>
       <section>
-      <SectionTitle title="Testimonials" description="What Clients Say About Me" />
+        <SectionTitle title="Testimonials" description="What Clients Say About Me" />
         <Testimonials />
+      </section>
+      <section>
+        <SectionTitle title="My Insights" description="Featured Blog" />
+        <FeaturedBlog />
+        <SeeMore link="/blog" />
       </section>
     </main>
   )

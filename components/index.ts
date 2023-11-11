@@ -13,3 +13,6 @@ export { default as BlogSec } from "./BlogSec/BlogSec";
 export { default as ContactLinks } from "./ContactLinks/ContactLinks";
 export { default as Map } from "./Map/Map";
 export { default as Email } from "./Email/Email";
+export { default as SeeMore } from "./SeeMore/SeeMore";
+export { default as FeaturedProjects } from "./FeaturedProjects/FeaturedProjects";
+export { default as FeaturedBlog } from "./FeaturedBlog/FeaturedBlog";

@@ -1,0 +1,17 @@
+.see-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 3em;
+    a {
+        width: fit-content;
+        padding: 0.3em 1.2em;
+        outline: 1px solid var(--clr-text);
+        border-radius: 2em;
+        transition: var(--transition);
+        &:hover, &:focus-visible {
+            color: var(--clr-heading);
+            outline-color: var(--clr-heading);
+        }
+    }
+}

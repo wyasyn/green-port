@@ -3,7 +3,7 @@ export const blogData = [
     {
         slug: "future-of-ai",
         date: "March 15, 2023",
-        title: "The Future of Artificial Intelligence: Trends and Predictions",
+        title: "The Future of Artificial Intelligence: Trends",
         description: "Explore the latest developments and future trends in AI, including applications, challenges, and potential breakthroughs.",
         content: "Artificial Intelligence (AI) has come a long way since its inception, and its future promises to be even more exciting and transformative. In this blog post, we will explore the latest trends and predictions for the future of AI, offering insights into the evolving landscape of this rapidly advancing technology. The future of artificial intelligence is full of promise and potential. As we continue to push the boundaries of what AI can do, it's essential to be mindful of the ethical and regulatory considerations that come with this technological progress. By staying informed about the latest trends and predictions in the AI field, we can better prepare for the transformative changes it will bring to our world.",
         image: images.blog1,
