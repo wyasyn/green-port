@@ -7,6 +7,7 @@ import project04 from '../images/proj4.jpg'
 import project05 from '../images/proj5.jpg'
 import project06 from '../images/proj6.jpg'
 import project07 from '../images/proj7.jpg'
+import project08 from '../images/proj8.jpg'
 import profile01 from '../images/prof1.jpg'
 import profile02 from '../images/prof2.jpg'
 import profile03 from '../images/prof3.jpg'
@@ -40,6 +41,7 @@ export const images = {
     project05,
     project06,
     project07,
+    project08,
     profile01,
     profile02,
     profile03,

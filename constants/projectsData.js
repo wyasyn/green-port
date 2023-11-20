@@ -2,6 +2,12 @@ import {images} from '@/constants/images'
 
 export const projectsData = [
     {
+        name: 'Library Management',
+        description: 'library management website',
+        image: images.project08,
+        link: 'https://yasyn-library.000webhostapp.com/'
+    },
+    {
         name: 'RahStudio',
         description: 'Architect & Construction',
         image: images.project01,
