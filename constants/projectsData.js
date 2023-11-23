@@ -2,6 +2,12 @@ import {images} from '@/constants/images'
 
 export const projectsData = [
     {
+        name: 'Portfolio Nov 2023',
+        description: 'Show personal projects',
+        image: images.project09,
+        link: 'https://creative-chebakia-c275a2.netlify.app/'
+    },
+    {
         name: 'Library Management',
         description: 'library management website',
         image: images.project08,
