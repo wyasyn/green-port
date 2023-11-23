@@ -1,7 +1,6 @@
 import './Projects.scss'
 import Image from 'next/image'
 import Link from 'next/link'
-import { AiFillEye } from 'react-icons/ai'
 import { projectsData } from '@/constants/projectsData'
 
 export default function FeaturedProjects() {
@@ -29,9 +28,6 @@ export default function FeaturedProjects() {
                             </p>
                         </div>
                     </div>
-                    <p className="badge">
-                        <AiFillEye />
-                    </p>
                 </Link>
             ))
         }

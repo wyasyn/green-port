@@ -45,21 +45,6 @@
              padding: 1rem;          
             }
         }
-        .badge {
-            position: absolute;
-            z-index: 3;
-            top: 1.5rem;
-            left: 1.5rem;
-            svg {
-                font-size: 2rem;
-                color: var(--primary);
-                transition: var(--transition);
-            }
-            @media screen and (min-width:1165px) {
-                top: 1rem;    
-                left: 1rem;     
-            }
-        }
         &:hover, &:focus-visible {
             transform: translateY(-10px);
             .project-info {
